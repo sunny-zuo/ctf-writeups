@@ -10,8 +10,8 @@ Date: June 1, 2020 - June 5, 2020
 * [Do Stars Spin? 3](./DoStarsSpin3.md)
 
 ### Web Exploitation
-* Blurry Eyes
-* Inspector Gadget
-* Very Safe Login
-* Debt Simulator
-* Broken Tokens
+* [Blurry Eyes](./BlurryEyes.md)
+* [Inspector Gadget](./InspectorGadget.md)
+* [Very Safe Login](./VerySafeLogin.md)
+* [Debt Simulator](./DebtSimulator.md)
+* [Broken Tokens](./BrokenTokens.md)
