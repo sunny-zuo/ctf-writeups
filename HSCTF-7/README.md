@@ -15,3 +15,4 @@ Date: June 1, 2020 - June 5, 2020
 * [Very Safe Login](./VerySafeLogin.md)
 * [Debt Simulator](./DebtSimulator.md)
 * [Broken Tokens](./BrokenTokens.md)
+* [Traffic Light W](./TrafficLightW.md)
