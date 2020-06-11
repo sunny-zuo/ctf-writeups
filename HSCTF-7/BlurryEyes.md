@@ -1,8 +1,12 @@
+---
+title: Blurry Eyes
+date: 2020-06-06
+tags: web, beginner
+ctf: HSCTF 7
+---
 # Blurry Eyes
 
 **Tags:** web, beginner
-
-**Date:** 2020-06-06
 
 ## Problem
 ```

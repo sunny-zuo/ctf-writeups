@@ -1,8 +1,13 @@
+---
+title: Debt Simulator
+date: 2020-06-06
+tags: web
+ctf: HSCTF 7
+---
+
 # Debt Simulator
 
 **Tags:** web
-
-**Date:** 2020-06-06
 
 ## Problem
 ```

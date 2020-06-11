@@ -1,8 +1,12 @@
+---
+title: Broken Tokens
+date: 2020-06-06
+tags: web
+ctf: HSCTF 7
+---
 # Broken Tokens
 
 **Tags:** web
-
-**Date:** 2020-06-06
 
 ## Problem
 ```

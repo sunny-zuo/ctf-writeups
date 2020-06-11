@@ -1,8 +1,13 @@
+---
+title: Do Stars Spin? 3
+date: 2020-06-06
+tags: osint, misc
+ctf: HSCTF 7
+---
+
 # Do Stars Spin? 3
 
 **Tags:** osint, misc
-
-**Date:** 2020-06-06
 
 ## Problem
 ```

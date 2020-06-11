@@ -1,8 +1,13 @@
+---
+title: Inspector Gadget
+date: 2020-06-06
+tags: web, beginner
+ctf: HSCTF 7
+---
+
 # Inspector Gadget
 
 **Tags:** web, beginner
-
-**Date:** 2020-06-06
 
 ## Problem
 ```
