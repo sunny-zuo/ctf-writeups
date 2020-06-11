@@ -1,5 +1,8 @@
 # Traffic Light W
-Tags: web, traffic lights
+
+**Tags:** web, traffic lights
+
+**Date:** 2020-06-07
 
 ## Problem
 ```

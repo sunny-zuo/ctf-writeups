@@ -1,5 +1,8 @@
 # Do Stars Spin? 1
-Tags: osint, misc
+
+**Tags:** osint, misc
+
+**Date:** 2020-06-06
 
 ## Problem
 ```
