@@ -5,11 +5,6 @@ tags: web, beginner
 ctf: HSCTF 7
 slug: /ctf-writeups/very-safe-login
 ---
-
-# Very Safe Login
-
-**Tags:** web, beginner
-
 ## Problem
 ```
 Bet you can't log in.

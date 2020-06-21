@@ -5,10 +5,6 @@ tags: web
 ctf: HSCTF 7
 slug: /ctf-writeups/broken-tokens
 ---
-# Broken Tokens
-
-**Tags:** web
-
 ## Problem
 ```
 I made a login page, is it really secure?

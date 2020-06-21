@@ -5,11 +5,6 @@ tags: web
 ctf: HSCTF 7
 slug: /ctf-writeups/debt-simulator
 ---
-
-# Debt Simulator
-
-**Tags:** web
-
 ## Problem
 ```
 https://debt-simulator.web.hsctf.com/

@@ -6,10 +6,6 @@ ctf: HSCTF 7
 slug: /ctf-writeups/traffic-light-w
 ---
 
-# Traffic Light W
-
-**Tags:** web, traffic lights
-
 ## Problem
 ```
 🚦Can you figure out what's going on with this shady company?

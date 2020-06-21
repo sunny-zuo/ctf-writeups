@@ -5,10 +5,6 @@ tags: web, beginner
 ctf: HSCTF 7
 slug: /ctf-writeups/blurry-eyes
 ---
-# Blurry Eyes
-
-**Tags:** web, beginner
-
 ## Problem
 ```
 I can't see :(

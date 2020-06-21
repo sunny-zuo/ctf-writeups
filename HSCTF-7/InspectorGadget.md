@@ -5,11 +5,6 @@ tags: web, beginner
 ctf: HSCTF 7
 slug: /ctf-writeups/inspector-gadget
 ---
-
-# Inspector Gadget
-
-**Tags:** web, beginner
-
 ## Problem
 ```
 https://inspector-gadget.web.hsctf.com/

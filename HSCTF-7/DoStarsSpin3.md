@@ -5,11 +5,6 @@ tags: osint, misc
 ctf: HSCTF 7
 slug: /ctf-writeups/do-stars-spin-3
 ---
-
-# Do Stars Spin? 3
-
-**Tags:** osint, misc
-
 ## Problem
 ```
 [Do Stars Spin? 2 continued]
