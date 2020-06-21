@@ -3,7 +3,6 @@ title: Traffic Light W
 date: 2020-06-07
 tags: web, traffic lights
 ctf: HSCTF 7
-slug: /ctf-writeups/traffic-light-w
 ---
 
 ## Problem

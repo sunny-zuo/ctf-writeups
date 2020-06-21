@@ -3,7 +3,6 @@ title: Broken Tokens
 date: 2020-06-06
 tags: web
 ctf: HSCTF 7
-slug: /ctf-writeups/broken-tokens
 ---
 ## Problem
 ```
