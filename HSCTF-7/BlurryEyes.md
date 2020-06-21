@@ -3,6 +3,7 @@ title: Blurry Eyes
 date: 2020-06-06
 tags: web, beginner
 ctf: HSCTF 7
+slug: /ctf-writeups/blurry-eyes
 ---
 # Blurry Eyes
 

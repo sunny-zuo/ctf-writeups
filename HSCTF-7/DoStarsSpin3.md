@@ -3,6 +3,7 @@ title: Do Stars Spin? 3
 date: 2020-06-06
 tags: osint, misc
 ctf: HSCTF 7
+slug: /ctf-writeups/do-stars-spin-3
 ---
 
 # Do Stars Spin? 3
