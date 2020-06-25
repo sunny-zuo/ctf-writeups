@@ -1,7 +1,7 @@
 ---
 title: panda-facts
 date: 2020-06-23
-tags: web
+tags: web, json
 ctf: redpwnCTF 2020
 ---
 ## Problem

@@ -1,6 +1,6 @@
 ---
 title: login
-date: 2020-06-23
+date: 2020-06-22
 tags: web, sql, beginner
 ctf: redpwnCTF 2020
 ---
