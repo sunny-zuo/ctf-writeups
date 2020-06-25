@@ -1,6 +1,6 @@
 # CTF Writeups
 
-Collection of my various CTF writeups
+Collection of my various CTF writeups. These writeups can also be found [on my website](https://sunnyzuo.com/ctf-writeups/). The majority of these writeups will be web challenges, as I prefer to focus on those.
 
 ## CTFs
 

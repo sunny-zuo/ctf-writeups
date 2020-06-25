@@ -1,7 +1,7 @@
 ---
 title: Debt Simulator
 date: 2020-06-06
-tags: web
+tags: web, api
 ctf: HSCTF 7
 ---
 ## Problem
