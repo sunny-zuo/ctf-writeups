@@ -18,7 +18,7 @@ The problem links to a webpage that provides some CTF information, and the flag 
 ![Image of blurred flag on webpage](files/blurred.png)
 
 Viewing the page source, we find that the blurred text is given the class of "blur":
-```
+```html
 <h4>Anyways, the flag that you need for this cha<span class="blur">llenge is: <span class="poefKuKjNPojzLDf"></span></span></h4>
 ```
 

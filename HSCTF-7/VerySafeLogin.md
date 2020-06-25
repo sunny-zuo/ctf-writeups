@@ -15,7 +15,7 @@ Author: Madeleine
 
 ## Solution
 The link leads us to a login page. Viewing the page source, we find the following script:
-```
+```html
 <script>
     var login = document.login;
 

@@ -24,14 +24,14 @@ eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdXRoIjoiZ3Vlc3QifQ.e3UX6vGuTGHWouov4s5H
 ```
 
 The format appears to be a JWT token. Using a [web JWT tool](https://jwt.io/), we can decode the token to find more information. The header contains:
-```
+```py
 {
   "typ": "JWT",
   "alg": "RS256"
 }
 ```
 and there is a payload:
-```
+```py
 {
   "auth": "guest"
 }
@@ -39,7 +39,7 @@ and there is a payload:
 
 We need to create a modified JWT token that contained ```"auth": "admin"``` to gain access to the admin page, which contains the flag. The JWT token is signed using the RS256 algorithm, which is an asymmetric algorithm that uses a private and public keypair. Without any other vulnerabilities, we would need to bruteforce the private key in order to sign a modified token, which is practically impossible. Looking at the server code ([main.py](./files/main.py)), we can find some information about how the token is validated:
 
-```
+```py
 import jwt
 
 with open("publickey.pem", "r") as f:
@@ -60,14 +60,14 @@ def index():
 	return resp
 ```
 The server decodes the JWT token with the following line:
-```
+```py
 admin = jwt.decode(auth, PUBLIC_KEY)["auth"] == "admin"
 ```
 
 Looking at the [pyjwt API reference](https://pyjwt.readthedocs.io/en/latest/api.html), we note that the implementation of jwt.decode() did not specify an algorithm. This means that we can attempt to create a JWT token using a different algorithm, such as HS256, which is a symmetric algorithm that uses a secret key to sign the JWT. pyjwt would then use the ```PUBLIC_KEY``` as the secret key. Since we know what ```PUBLIC_KEY``` is, we can easily create a valid token.
 
 Copying the usage of pyjwt and opening publickey.pem in the exact same method (to prevent weird errors with newlines): ([brokentokens.py](./files/brokentokens.py))
-```
+```py
 import jwt
 
 f = open("publickey.pem", "r")

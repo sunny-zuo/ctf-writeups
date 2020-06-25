@@ -1,7 +1,7 @@
 ---
 title: login
 date: 2020-06-23
-tags: web, sql
+tags: web, sql, beginner
 ctf: redpwnCTF 2020
 ---
 ## Problem
@@ -14,7 +14,7 @@ Site: login.2020.redpwnc.tf
 ## Solution
 The website brings us to a simple login page that appears to send a request to the server to authenticate. The [source code](./files/login.js) of the challenge was provided, so we can look through that to see if any vulernabilities exist. We immediately notice that the server utilizes a SQL database:
 
-```
+```js
 const express = require('express');
 const bodyParser = require('body-parser');
 const cookieParser = require('cookie-parser');
@@ -24,7 +24,7 @@ const db = require('better-sqlite3')('db.sqlite3');
 
 This is likely a SQL injection challenge. Looking further through the code, we find how the server checks credentials:
 
-```
+```js
 let result;
     try {
         result = db.prepare(`SELECT * FROM users 

@@ -13,7 +13,7 @@ Author: Madeleine
 
 ## Solution
 The webpage appears to be a normal website, containing characters from Inspector Gadget. Viewing the page source, we find a comment in the HTML containing the flag:
-```
+```html
 <!-- flag{n1ce_j0b_0p3n1nG_th3_1nsp3ct0r_g4dg3t} -->
 ```
 
