@@ -1,7 +1,7 @@
 ---
 title: Traffic Light W
 date: 2020-06-07
-tags: web, xml, xxe
+tags: web, lfi, xxe
 ctf: HSCTF 7
 ---
 
