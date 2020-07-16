@@ -16,7 +16,7 @@ http://challenge.rgbsec.xyz:8973/
 ## Solution
 The link brings us to a webpage that appears to be a version of TypeRacer (a typing speed test):
 
-![Image showing the interface to upload XML firmware](./files/Typeracer.png)
+![Image showing the Typeracer interface](./files/Typeracer.png)
 
 Upon clicking the "Start Challenge!" button, sample text appears in the above box, and the user needs to type the text that appears. I tried it manually, and got around 100 WPM which wasn't enough. We'll need to look into scripting it.
 
